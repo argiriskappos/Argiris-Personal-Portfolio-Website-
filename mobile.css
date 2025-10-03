@@ -1,0 +1,64 @@
+header {
+    text-align: left;
+    background-color: #22213D;
+    color: #6C67F0;
+    font-size: rem;
+}
+
+#customfooter {
+    text-align: center;
+    background-color: #2F2E42;
+    color: #7876C4;
+}
+
+#first {
+    color: #77769C;
+}
+
+.second {
+    color: #626270;
+}
+
+.element {
+    float: left;
+    margin-right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skill {
+    width: 360px;
+    background-color: #2F2E42;
+}
+
+.project-item {
+    width: 360px;
+    background-color: #626270;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    color: white;
+    padding: 16px;
+}
+
+@media (max-width: 420px) {
+   body {
+    background-color: #22213D;
+   }
+   .project-item {
+    background-color: #77769C;
+   }
+}
+
+@media (min-width: 0px) {
+   body {
+    background-color: #2F2E42;
+   }
+   .project-item {
+    background-color: #626270;
+   }
+}

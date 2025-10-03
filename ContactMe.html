@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- The UTF-8 for supporting all characters -->
+    <meta charset="UTF-8">
+    
+    <!-- Makes page responsive on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title displayed in the browser tab -->
+    <title>Argiris Portfolio</title>
+
+    <!-- Linking external CSS's -->
+    <link rel="stylesheet" href="desktop.css"> <!-- Desktop styles -->
+    <link rel="stylesheet" href="tablet.css">  <!-- Tablet styles -->
+    <link rel="stylesheet" href="mobile.css">  <!-- Mobile styles -->
+    
+</head>
+<body>
+    <!-- Header-->
+    <header class="header">
+        <!-- Website title -->
+    <header class="header">
+        <div class="header">
+            Contact Page
+        </div>
+
+        <!-- Navigation for linked Pages -->
+        <nav class="nav">
+            <ol class="clearfix">
+                <li><a class="button" href="HomePage.html">Home Page</a></li>
+                <li><a class="button" a href="AboutMe.html">About Me Page</a></li>
+                <li><a class="button" href="ProjectsPage.html">Projects Page</a>
+                <li><a class="button" href="ContactMe.html">Contact Page</a></li>
+                
+            </ol>
+        </nav>
+    </header>
+
+            <!-- Contact Form -->
+            <form action="mailto:argiris.kappos@ontariotechu.net?subject=Feedback from website"
+            enctype="text/plain" method="post" name="FeedbackForm">
+           
+            <!-- First Name field -->
+            <p>
+                <label for="FName">First Name: </label>
+                <input type="text" name="FName" size="40"
+                placeholder="Enter your first name" required>
+            </p>
+
+            <!-- Last Name field -->
+            <p>
+                <label for="LName">Last Name: </label>
+                <input type="text" name="LName" size="40"
+                placeholder="Enter your last name" required>
+            </p>
+
+            <!-- Email field-->
+            <p>
+                <label for="Email">Email: </label>
+                <input type="email" name="Email" size="40"
+                placeholder="Enter your email address" required>
+            </p>
+
+            <!-- Comments box -->
+            <p>
+                <label for="comments">Comments: </label>
+                <br>
+                <textarea name="comments" cols="60" rows="8"></textarea>
+            </p>
+
+            <!-- checkbox options -->
+            <p>
+                <input type="checkbox" name="maillist">
+                <label for="maillist">Personal Purpose</label>                
+            </p>
+            <p>
+                <input type="checkbox" name="maillist">
+                <label for="maillist">School Purpose</label>                
+            </p>
+
+            <!-- Reset and submit buttons -->
+            </p>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+                
+    <!-- Main-->
+    <main>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <!-- Email contact link-->
+            <p>Email: <a href="ContactMe.html">argiris.kappos@ontariotechu.net</a></p>
+             <!-- LinkedIn profile -->
+            <p>LinkedIn: <a href="#">https://ca.linkedin.com/in/argiriskappos</a></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="customfooter">
+        <p>Copyright &copy; 2025 Argiris</p>
+    </footer>
+</body>
+</html>
